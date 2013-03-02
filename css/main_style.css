@@ -1,0 +1,223 @@
+*|ul, *|ol, *|li, *|h1, *|h2, *|h3, *|h4, *|h5, *|h6, *|pre, *|form, *|body, *|html, *|div.paragraph, *|blockquote, *|fieldset, *|input {
+  margin: 0;
+  padding: 0;
+}
+*|ul, *|ol, *|li, *|h1, *|h2, *|h3, *|h4, *|h5, *|h6, *|pre, *|form, *|body, *|html, *|p, *|blockquote, *|fieldset, *|input {
+  margin: 0;
+  padding: 0;
+}
+*|body {
+  margin: 0;
+  padding: 0;
+  background: #c2c2c2 url(http://www.aaronfoltz.com/files/theme/body_background.jpg) repeat-x scroll center top;
+  font-family: arial,verdana,sans-serif;
+  font-size: 12px;
+  color: #666666;
+}
+*|#main {
+  margin: 0 auto;
+  position: relative;
+  background-color: grey;
+  width: 986px;
+}
+*|#header-image {
+  padding: 13px;
+  float: left;
+  width: 960px;
+  height: 211px;
+}
+*|#nav-bottom {
+  background: transparent url(theme/below_nav.gif) no-repeat scroll left top;
+  float: left;
+  width: 986px;
+  height: 14px;
+}
+*|#body-background {
+  margin: 0;
+  padding: 0;
+  background: #c2c2c2 url(http://www.aaronfoltz.com/files/theme/body_background.jpg) repeat-x scroll center top;
+  font-family: arial,verdana,sans-serif;
+  font-size: 12px;
+  color: #666666;
+}
+*|#content-main {
+  border-width: 0px;
+  padding: 0 25px 35px 15px;
+  margin-left: 8px;
+  min-height: 600px;
+  width: 920px;
+  height: 600px ! important;
+  left: 132px;
+  background-color: white;
+  float: left;
+  top: 291px;
+  position: fixed;
+}
+*|ul {
+  list-style-type: none;
+  list-style-image: none;
+  list-style-position: outside;
+}
+*|fieldset {
+  border:  none;
+}
+*|a *|img {
+  border:  none;
+}
+*|.clear {
+  clear: both;
+}
+*|div.paragraph {
+  line-height: 170%;
+}
+*|p {
+  line-height: 170%;
+}
+*|h1, *|h2, *|h3 {
+  line-height: 40px;
+}
+*|h2 {
+  font-size: 18px;
+}
+*|#wrapper {
+  margin: 0 auto;
+  width: 100%;
+}
+*|#sitename {
+  color: #ffffff;
+  padding-top: 30px;
+  padding-left: 13px;
+  font-size: 26px;
+}
+*|#content-wrapper {
+  float: left;
+  width: 986px;
+}
+*|#content {
+  background: transparent url(theme/content_top_background.jpg?57222) no-repeat scroll right top;
+  float: left;
+  width: 986px;
+}
+*|#navigation {
+  overflow: hidden;
+  float: left;
+  background-color: #12283c;
+  width: 986px;
+  height: 54px;
+}
+*|#nav-left {
+  float: left;
+  background-color: #12283c;
+  width: 13px;
+  height: 54px;
+}
+*|#nav-content *|ul {
+  padding: 0 0 0px 0px;
+  float: left;
+  width: 940px;
+  height: 41px;
+  margin-left: 20px;
+}
+*|#nav-content *|li {
+  padding: 6px 35px 0px 0px;
+  float: left;
+  display: inline;
+  font-family: arial,verdana,sans-serif;
+  text-align: center;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: normal;
+  margin-top: 12px;
+  margin-right: 3px;
+}
+*|#nav-right {
+  float: left;
+  background-color: #12283c;
+  width: 13px;
+  height: 54px;
+}
+*|#navigation *|a:link {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: normal;
+  text-decoration: none;
+}
+*|#navigation *|a:visited {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: normal;
+  text-decoration: none;
+}
+*|#navigation *|a:hover {
+  color: #cccccc;
+  font-size: 14px;
+  font-weight: normal;
+  text-decoration: none;
+}
+*|#active *|a:link {
+  color: #cccccc;
+  text-decoration: none;
+}
+*|#active *|a:hover {
+  color: #cccccc;
+  text-decoration: none;
+}
+*|#active *|a:visited {
+  color: #cccccc;
+  text-decoration: none;
+}
+*|a:link, *|a:hover, *|a:visited {
+  color: #12283c;
+  font-weight: normal;
+  text-decoration: underline;
+}
+*|img.image-left {
+  margin-right: 15px;
+  float: left;
+}
+*|img.image-right {
+  margin-left: 15px;
+  float: right;
+}
+*|#footer {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 70px;
+}
+*|#footer-image {
+  margin: 0 auto;
+  padding: 7px 10px 0 0px;
+  background: transparent url(theme/content_btm_background.jpg?57222) no-repeat scroll center top;
+  width: 979px;
+  height: 28px;
+}
+*|#footer-contents {
+  margin: 0 auto;
+  padding: 27px 10px 0 35px;
+  text-align: left;
+  font-family: "lucida grande","lucida sans",arial,sans-serif;
+  color: #333333;
+  width: 979px;
+  height: 40px;
+}
+
+*|div.paragraph *|ul, *|div.paragraph *|ol {
+  margin: 5px 0 ! important;
+  padding-left: 25px ! important;
+}
+*|div.paragraph *|li {
+  margin: 3px 0 0 ! important;
+  padding-left: 5px ! important;
+}
+*|div.paragraph *|ul, *|div.paragraph *|ul *|li {
+  list-style-type: disc ! important;
+  list-style-image: none ! important;
+  list-style-position: outside ! important;
+}
+*|div.paragraph *|ol, *|div.paragraph *|ol *|li {
+  list-style-type: decimal ! important;
+  list-style-image: none ! important;
+  list-style-position: outside ! important;
+}
+
